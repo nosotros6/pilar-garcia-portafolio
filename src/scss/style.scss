@@ -4,7 +4,7 @@ $white: #ffffff;
 
 .textoHome {
   position: relative;
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 .img-camara {
@@ -16,7 +16,7 @@ $white: #ffffff;
 }
 
 #rio-biobio {
-width: 44%;
+  width: 44%;
 }
 
 .imagen-biobio img {
@@ -32,8 +32,8 @@ width: 44%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: $color-primario; /* Cambia el color de fondo según tus preferencias */
-  padding: 10px 20px; /* Ajusta el espaciado según tus necesidades */
+  background-color: $color-primario;
+  padding: 10px 20px;
 }
 
 .logo-container {
@@ -43,13 +43,13 @@ width: 44%;
 }
 
 .logo {
-  width: 36px; /* Ajusta el tamaño de tu logotipo */
+  width: 36px;
   height: auto;
-  margin-right: 10px; /* Ajusta el margen derecho según tus necesidades */
+  margin-right: 10px;
 }
 
 .tooltip {
-  display: none; /* Ajusta según tus necesidades */
+  display: none;
 }
 
 .navbar-list {
@@ -61,27 +61,27 @@ width: 44%;
 }
 
 .navbar-item {
-  margin-right: 20px; /* Ajusta el margen derecho entre elementos según tus necesidades */
+  margin-right: 20px;
 }
 
 .navbar-item:last-child {
-  margin-right: 0; /* Elimina el margen derecho del último elemento */
+  margin-right: 0;
 }
 
 .navbar-item a,
 .navbar-text {
   color: $white;
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .navbar-item a:hover {
-  color: $color-secundario; 
+  color: $color-secundario;
 }
 
 .epigrafeTituloHome {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 40px !important ;
   font-weight: 200;
   letter-spacing: 3px;
@@ -89,15 +89,15 @@ width: 44%;
 }
 
 .epigrafeTituloHome2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 40px !important ;
   font-weight: 400;
   letter-spacing: 3px;
   color: $color-secundario;
 }
 
-.TituloHome {
-  font-family: 'Raleway', sans-serif;
+.tituloHome {
+  font-family: 'Playfair Display SC', serif;
   font-size: 56px !important ;
   font-weight: 200;
   letter-spacing: 2px;
@@ -105,7 +105,7 @@ width: 44%;
 }
 
 .texto-final-home {
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   font-size: 24px !important;
   color: $white;
 }
@@ -115,11 +115,11 @@ width: 44%;
 }
 
 .footer {
-background-color: $color-primario;
+  background-color: $color-primario;
 }
 
 .icono-footer {
-  font-size:40px;
+  font-size: 40px;
   color: $white;
 }
 
@@ -131,12 +131,112 @@ background-color: $color-primario;
 }
 
 .texto-footer {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: 14px;
   font-weight: 200;
   color: $white;
 }
 
 .icono-footer a:hover {
-  color: $color-secundario; 
+  color: $color-secundario;
+}
+
+/* TRABAJOS */
+.card-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.card-title {
+  font-family: "Comfortaa", cursive;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 2%;
+}
+.card-subtitle {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.card-info {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.card-link {
+  font-family: "Roboto Flex", sans-serif;
+  color: #007bff;
+  font-style: italic;
+}
+
+.card-img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  z-index: 1;
+}
+
+.skills-section{
+background-color: $color-secundario;
+}
+
+.skillsTitle{
+  font-family: 'Playfair Display SC', serif;
+  font-size:36px ;
+  color:$color-primario;
+  padding: 80px 0px;
+}
+.skills-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px !important ;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: $white;
+}
+
+.skills-list {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px !important;
+  color: $white;
+}
+
+header {
+  background-image: url('./assets/Img/tools.png'); 
+  background-size: cover; 
+  background-position: center; 
+  height: auto;
+}
+
+.img-skills {
+  position: relative;
+}
+
+#ninia-skills {
+  width: 56%;
+}
+
+.img-skills img {
+  position: absolute;
+  top: -574px;
+  left: 574px;
+  width: auto;
+  height: auto;
+  z-index: 1;
 }

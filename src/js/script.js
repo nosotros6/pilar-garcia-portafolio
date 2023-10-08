@@ -1,10 +1,10 @@
 // Array con los nombres de las secciones y sus rutas HTML
 const secciones = [
-    { texto: 'Home', enlace: '#' },
-    { texto: 'Proyects', enlace: 'proyectos.html' },
-    { texto: 'Skills & Studies', enlace: 'estudios.html' },
-    { texto: 'Jobs', enlace: 'trabajos.html' },
-    { texto: 'Gallery', enlace: 'galeria.html' }
+    { texto: 'Inicio', enlace: 'index.html' },
+    { texto: 'Proyectos', enlace: 'proyects.html' },
+    { texto: 'Estudios', enlace: 'studies.html' },
+    { texto: 'Trabajos', enlace: 'jobs.html' },
+    { texto: 'Galería', enlace: 'gallery.html' }
 ];
 
 // Obtener la referencia a la lista <ul> por su ID
@@ -61,3 +61,42 @@ imagenes.forEach((imagen, index) => {
     carouselItem.appendChild(img);
     carouselInner.appendChild(carouselItem);
 });
+// FECHA
+function obtenerFechaActual() {
+    const dias = [
+      "domingo",
+      "lunes",
+      "martes",
+      "miércoles",
+      "jueves",
+      "viernes",
+      "sábado",
+    ];
+    const meses = [
+      "enero",
+      "febrero",
+      "marzo",
+      "abril",
+      "mayo",
+      "junio",
+      "julio",
+      "agosto",
+      "septiembre",
+      "octubre",
+      "noviembre",
+      "diciembre",
+    ];
+    const fecha = new Date();
+    const diaSemana = dias[fecha.getDay()];
+    const dia = fecha.getDate();
+    const mes = meses[fecha.getMonth()];
+    const anio = fecha.getFullYear();
+    return `${diaSemana}, ${dia} de ${mes} de ${anio}`;
+  }
+  function actualizarFechaActual() {
+    const elementoFecha = document.getElementById("fecha-actual");
+    elementoFecha.textContent = obtenerFechaActual();
+  }
+  actualizarFechaActual();
+  setInterval(actualizarFechaActual, 1000);
+  

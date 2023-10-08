@@ -1,9 +1,35 @@
 @charset "UTF-8";
+.textoHome {
+  position: relative;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.img-camara {
+  width: 90%;
+}
+
+.imagen-biobio {
+  position: relative;
+}
+
+#rio-biobio {
+  width: 44%;
+}
+
+.imagen-biobio img {
+  position: absolute;
+  top: -848px;
+  left: 711px;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333; /* Cambia el color de fondo según tus preferencias */
+  background-color: #222222; /* Cambia el color de fondo según tus preferencias */
   padding: 10px 20px; /* Ajusta el espaciado según tus necesidades */
 }
 
@@ -41,14 +67,75 @@
 
 .navbar-item a,
 .navbar-text {
-  color: white;
-  font-family: Roboto, sans-serif;
+  color: #ffffff;
+  font-family: "Roboto Flex", sans-serif;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .navbar-item a:hover {
-  color: orangered; /* Cambia el color al pasar el cursor sobre los enlaces */
+  color: #ff4500;
+}
+
+.epigrafeTituloHome {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px !important;
+  font-weight: 200;
+  letter-spacing: 3px;
+  color: #ff4500;
+}
+
+.epigrafeTituloHome2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px !important;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #ff4500;
+}
+
+.TituloHome {
+  font-family: "Raleway", sans-serif;
+  font-size: 56px !important;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: #222222;
+}
+
+.texto-final-home {
+  font-family: "Poiret One", cursive;
+  font-size: 24px !important;
+  color: #ffffff;
+}
+
+.final-home {
+  background-color: #ff4500;
+}
+
+.footer {
+  background-color: #222222;
+}
+
+.icono-footer {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.icono-footer a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.texto-footer {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+.icono-footer a:hover {
+  color: #ff4500;
 }
 
 /*# sourceMappingURL=style.css.map */

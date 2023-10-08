@@ -1,8 +1,38 @@
+$color-primario: #222222;
+$color-secundario: #ff4500;
+$white: #ffffff;
+
+.textoHome {
+  position: relative;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+.img-camara {
+  width: 90%;
+}
+
+.imagen-biobio {
+  position: relative;
+}
+
+#rio-biobio {
+width: 44%;
+}
+
+.imagen-biobio img {
+  position: absolute;
+  top: -848px;
+  left: 711px;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333; /* Cambia el color de fondo según tus preferencias */
+  background-color: $color-primario; /* Cambia el color de fondo según tus preferencias */
   padding: 10px 20px; /* Ajusta el espaciado según tus necesidades */
 }
 
@@ -40,12 +70,73 @@
 
 .navbar-item a,
 .navbar-text {
-  color: white;
-  font-family: Roboto, sans-serif;
+  color: $white;
+  font-family: 'Roboto Flex', sans-serif;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .navbar-item a:hover {
-  color: orangered; /* Cambia el color al pasar el cursor sobre los enlaces */
+  color: $color-secundario; 
+}
+
+.epigrafeTituloHome {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px !important ;
+  font-weight: 200;
+  letter-spacing: 3px;
+  color: $color-secundario;
+}
+
+.epigrafeTituloHome2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px !important ;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: $color-secundario;
+}
+
+.TituloHome {
+  font-family: 'Raleway', sans-serif;
+  font-size: 56px !important ;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: $color-primario;
+}
+
+.texto-final-home {
+  font-family: 'Poiret One', cursive;
+  font-size: 24px !important;
+  color: $white;
+}
+
+.final-home {
+  background-color: $color-secundario;
+}
+
+.footer {
+background-color: $color-primario;
+}
+
+.icono-footer {
+  font-size:40px;
+  color: $white;
+}
+
+.icono-footer a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: $white;
+}
+
+.texto-footer {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  color: $white;
+}
+
+.icono-footer a:hover {
+  color: $color-secundario; 
 }

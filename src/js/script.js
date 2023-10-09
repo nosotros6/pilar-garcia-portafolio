@@ -1,34 +1,43 @@
-// Array con los nombres de las secciones y sus rutas HTML
 const secciones = [
-    { texto: 'Inicio', enlace: 'index.html' },
-    { texto: 'Proyectos', enlace: 'proyects.html' },
-    { texto: 'Estudios', enlace: 'studies.html' },
-    { texto: 'Trabajos', enlace: 'jobs.html' },
-    { texto: 'Galería', enlace: 'gallery.html' }
+  { texto: 'Inicio', enlace: 'index.html' },
+  { texto: 'Proyectos', enlace: 'proyects.html' },
+  { texto: 'Estudios', enlace: 'studies.html' },
+  { texto: 'Trabajos', enlace: 'jobs.html' },
+  { texto: 'Galería', enlace: 'gallery.html' }
 ];
 
 // Obtener la referencia a la lista <ul> por su ID
 const navbarList = document.getElementById('navbarList');
 
+// Obtener la URL actual
+const urlActual = window.location.href;
+
 // Crear las etiquetas <li> y <a> dinámicamente
 secciones.forEach(item => {
-    const listItem = document.createElement('li');
-    const link = document.createElement('a');
+  const listItem = document.createElement('li');
+  const link = document.createElement('a');
 
-    link.href = item.enlace;
-    link.textContent = item.texto;
+  link.href = item.enlace;
+  link.textContent = item.texto;
 
-    listItem.classList.add('navbar-item'); // Aplicar clase CSS para los estilos
-    listItem.style.marginRight = '20px'; // Aplicar margen derecho
-    if (item === secciones[secciones.length - 1]) {
-        listItem.style.marginRight = '0'; // Eliminar margen derecho del último elemento
-    }
+  listItem.classList.add('navbar-item'); // Aplicar clase CSS para los estilos
+  listItem.style.marginRight = '20px'; // Aplicar margen derecho
+  if (item === secciones[secciones.length - 1]) {
+      listItem.style.marginRight = '0'; // Eliminar margen derecho del último elemento
+  }
 
-    link.classList.add('navbar-link'); // Agregar clase a los enlaces si es necesario
+  link.classList.add('navbar-link'); // Agregar clase a los enlaces si es necesario
 
-    listItem.appendChild(link);
-    navbarList.appendChild(listItem);
+  // Verificar si la URL actual coincide con el enlace de la sección actual
+  if (urlActual.includes(item.enlace)) {
+      listItem.style.color = '#ffffff'; // Cambiar color del texto
+      listItem.style.pointerEvents = 'none'; // Bloquear el enlace
+  }
+
+  listItem.appendChild(link);
+  navbarList.appendChild(listItem);
 });
+
 // CARRUSEL
 // Define un array con las rutas de las imágenes
 const imagenes = [
@@ -100,3 +109,8 @@ function obtenerFechaActual() {
   actualizarFechaActual();
   setInterval(actualizarFechaActual, 1000);
   
+  // TOOLTIPS
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+  });

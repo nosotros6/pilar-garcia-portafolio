@@ -76,6 +76,10 @@
   color: #ff4500;
 }
 
+.navbar-item {
+  text-decoration: underline; /* Subrayar el texto */
+}
+
 .epigrafeTituloHome {
   font-family: "Raleway", sans-serif;
   font-size: 40px !important;
@@ -199,7 +203,7 @@
   font-family: "Playfair Display SC", serif;
   font-size: 36px;
   color: #222222;
-  padding: 80px 0px;
+  padding: 120px 0px 64px 0px;
 }
 
 .skills-subtitle {
@@ -238,6 +242,41 @@ header {
   width: auto;
   height: auto;
   z-index: 1;
+}
+
+.nav-link {
+  color: dimgrey;
+}
+
+.nav-link:hover {
+  color: white;
+  background: rgb(210, 209, 209);
+}
+
+.nav-pills .nav-link.active {
+  background-color: #ff4500;
+}
+
+.toolsTitle {
+  font-family: "Playfair Display SC", serif;
+  font-size: 24px;
+  color: #ffffff;
+  padding: 40px 0px 4px 0px;
+}
+
+.icon-tools-section {
+  background: #222222;
+}
+
+#toolsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#toolsContainer img {
+  max-width: 100px;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

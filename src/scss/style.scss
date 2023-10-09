@@ -34,7 +34,13 @@ $white: #ffffff;
   align-items: center;
   background-color: $color-primario;
   padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  
 }
+
 
 .logo-container {
   display: flex;
@@ -278,4 +284,23 @@ background: $color-primario;
 #toolsContainer img {
   max-width: 100px;
   margin: 10px;
+}
+
+#socialIconsList {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#socialIconsList li {
+  margin: 0 10px; /* Espacio entre los íconos */
+  list-style: none; /* Quita los puntos de lista */
+}
+
+#footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Esto centrará los elementos horizontalmente */
+  text-align: center; /* Esto centrará el texto dentro de los elementos */
+  padding: 20px; /* Espacio interior opcional */
 }

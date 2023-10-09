@@ -41,14 +41,14 @@ secciones.forEach(item => {
 // CARRUSEL
 // Define un array con las rutas de las imágenes
 const imagenes = [
-    "./assets/img/carrusel1.png",
-    "./assets/img/carrusel2.png",
-    "./assets/img/carrusel3.png",
-    "./assets/img/carrusel4.png",
-    "./assets/img/carrusel5.png",
-    "./assets/img/carrusel6.png",
-    "./assets/img/carrusel7.png",
-    "./assets/img/carrusel8.png"
+    "./assets/img/carrusel-uno.png",
+    "./assets/img/carrusel-dos.png",
+    "./assets/img/carrusel-tres.png",
+    "./assets/img/carrusel-cuatro.png",
+    "./assets/img/carrusel-cinco.png",
+    "./assets/img/carrusel-seis.png",
+    "./assets/img/carrusel-siete.png",
+    "./assets/img/carrusel-ocho.png"
 ];
 
 // Obtén la referencia al elemento del carrusel interior por su ID

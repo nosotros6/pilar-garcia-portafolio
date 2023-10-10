@@ -38,12 +38,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const githubImage = document.createElement('img');
     githubImage.src = data.githubImageSrc;
-    githubImage.width = '40px';
+    githubImage.width = '24px';
 
     githubLink.appendChild(githubImage);
 
     const footerText = document.createElement('a');
-    footerText.classList.add('nav-link', 'disabled', 'text-center', 'text-white', 'texto-footer', 'pb-5', 'my-3');
+    footerText.classList.add('nav-link', 'disabled', 'text-center', 'text-white', 'texto-footer', 'pb-4', 'my-0');
     footerText.textContent = data.footerText;
 
     container.appendChild(socialIconsList);

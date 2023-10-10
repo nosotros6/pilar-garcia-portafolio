@@ -38,9 +38,7 @@ $white: #ffffff;
   top: 0;
   width: 100%;
   z-index: 2;
-  
 }
-
 
 .logo-container {
   display: flex;
@@ -107,7 +105,7 @@ $white: #ffffff;
 }
 
 .tituloHome {
-  font-family: 'Playfair Display SC', serif;
+  font-family: "Playfair Display SC", serif;
   font-size: 56px !important ;
   font-weight: 200;
   letter-spacing: 2px;
@@ -116,7 +114,14 @@ $white: #ffffff;
 
 .texto-final-home {
   font-family: "Poiret One", cursive;
-  font-size: 24px !important;
+  font-size: 20px !important;
+  color: $white;
+}
+
+#texto-final-home-span {
+  font-family: "Poiret One", cursive;
+  font-size: 20px !important;
+  font-style: italic;
   color: $white;
 }
 
@@ -151,7 +156,27 @@ $white: #ffffff;
   color: $color-secundario;
 }
 
-/* TRABAJOS */
+/* ESTUDIOS-JOBS */
+.work-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12px;
+  padding-left: 100px;
+}
+
+#card-jobs {
+  width: 24rem;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 20px;
+}
+
+.titleJobs {
+  font-family: "Playfair Display SC", serif;
+  font-size: 28px;
+  color: $white;
+}
+
 .card-grid {
   position: relative;
   display: grid;
@@ -164,16 +189,17 @@ $white: #ffffff;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  width: 20rem;
 }
 .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .card-title {
-  font-family: "Comfortaa", cursive;
+  font-family: "Playfair Display SC", serif;
   font-size: 16px;
   font-weight: bold;
   margin: 2%;
@@ -186,14 +212,15 @@ $white: #ffffff;
 
 .card-info {
   font-family: "Roboto Flex", sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   margin: 10px;
 }
 
 .card-link {
   font-family: "Roboto Flex", sans-serif;
-  color: #007bff;
+  color: $color-secundario;
   font-style: italic;
+  font-size: 14px;
 }
 
 .card-img {
@@ -203,14 +230,14 @@ $white: #ffffff;
   z-index: 1;
 }
 
-.skills-section{
-background-color: $color-secundario;
+.skills-section {
+  background-color: $color-secundario;
 }
 
-.skillsTitle{
-  font-family: 'Playfair Display SC', serif;
-  font-size:36px ;
-  color:$color-primario;
+.skillsTitle {
+  font-family: "Playfair Display SC", serif;
+  font-size: 36px;
+  color: $color-primario;
   padding: 120px 0px 64px 0px;
 }
 .skills-subtitle {
@@ -228,9 +255,9 @@ background-color: $color-secundario;
 }
 
 header {
-  background-image: url('./assets/Img/tools.png'); 
-  background-size: cover; 
-  background-position: center; 
+  background-image: url("./assets/Img/tools.png");
+  background-size: cover;
+  background-position: center;
   height: auto;
 }
 
@@ -251,28 +278,28 @@ header {
   z-index: 1;
 }
 
-.nav-link{
+.nav-link {
   color: dimgrey;
 }
 
-.nav-link:hover{
-  color: white;
-  background: rgb(210, 209, 209);
+.nav-link:hover {
+  color: dimgrey;
+  background: #222222;
 }
 
 .nav-pills .nav-link.active {
- background-color: $color-secundario;
+  background-color: $color-secundario;
 }
 
-.toolsTitle{
-  font-family: 'Playfair Display SC', serif;
-  font-size:24px ;
-  color:$white;
+.toolsTitle {
+  font-family: "Playfair Display SC", serif;
+  font-size: 24px;
+  color: $white;
   padding: 40px 0px 4px 0px;
 }
 
 .icon-tools-section {
-background: $color-primario;
+  background: $color-primario;
 }
 
 #toolsContainer {
@@ -289,12 +316,12 @@ background: $color-primario;
 #socialIconsList {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 #socialIconsList li {
   margin: 0 10px; /* Espacio entre los íconos */
-  list-style: none; /* Quita los puntos de lista */
+  list-style: none;
 }
 
 #footerContainer {
@@ -302,5 +329,5 @@ background: $color-primario;
   flex-direction: column;
   align-items: center; /* Esto centrará los elementos horizontalmente */
   text-align: center; /* Esto centrará el texto dentro de los elementos */
-  padding: 20px; /* Espacio interior opcional */
+  padding: 0px; /* Espacio interior opcional */
 }

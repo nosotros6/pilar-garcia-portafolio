@@ -111,7 +111,14 @@
 
 .texto-final-home {
   font-family: "Poiret One", cursive;
-  font-size: 24px !important;
+  font-size: 20px !important;
+  color: #ffffff;
+}
+
+#texto-final-home-span {
+  font-family: "Poiret One", cursive;
+  font-size: 20px !important;
+  font-style: italic;
   color: #ffffff;
 }
 
@@ -146,7 +153,27 @@
   color: #ff4500;
 }
 
-/* TRABAJOS */
+/* ESTUDIOS-JOBS */
+.work-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12px;
+  padding-left: 100px;
+}
+
+#card-jobs {
+  width: 24rem;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 20px;
+}
+
+.titleJobs {
+  font-family: "Playfair Display SC", serif;
+  font-size: 28px;
+  color: #ffffff;
+}
+
 .card-grid {
   position: relative;
   display: grid;
@@ -159,6 +186,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  width: 20rem;
 }
 
 .image-container {
@@ -169,7 +197,7 @@
 }
 
 .card-title {
-  font-family: "Comfortaa", cursive;
+  font-family: "Playfair Display SC", serif;
   font-size: 16px;
   font-weight: bold;
   margin: 2%;
@@ -183,14 +211,15 @@
 
 .card-info {
   font-family: "Roboto Flex", sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   margin: 10px;
 }
 
 .card-link {
   font-family: "Roboto Flex", sans-serif;
-  color: #007bff;
+  color: #ff4500;
   font-style: italic;
+  font-size: 14px;
 }
 
 .card-img {
@@ -254,8 +283,8 @@ header {
 }
 
 .nav-link:hover {
-  color: white;
-  background: rgb(210, 209, 209);
+  color: dimgrey;
+  background: #222222;
 }
 
 .nav-pills .nav-link.active {
@@ -287,12 +316,12 @@ header {
 #socialIconsList {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 #socialIconsList li {
   margin: 0 10px; /* Espacio entre los íconos */
-  list-style: none; /* Quita los puntos de lista */
+  list-style: none;
 }
 
 #footerContainer {
@@ -300,7 +329,7 @@ header {
   flex-direction: column;
   align-items: center; /* Esto centrará los elementos horizontalmente */
   text-align: center; /* Esto centrará el texto dentro de los elementos */
-  padding: 20px; /* Espacio interior opcional */
+  padding: 0px; /* Espacio interior opcional */
 }
 
 /*# sourceMappingURL=style.css.map */

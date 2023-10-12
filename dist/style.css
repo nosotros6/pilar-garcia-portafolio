@@ -13,7 +13,7 @@
 }
 
 #rio-biobio {
-  width: 44%;
+  width: 100%;
 }
 
 .imagen-biobio img {
@@ -95,7 +95,7 @@
 
 .epigrafeTituloHome2 {
   font-family: "Raleway", sans-serif;
-  font-size: 40px !important;
+  font-size: 36px !important;
   font-weight: 400;
   letter-spacing: 3px;
   color: #ff4500;
@@ -103,7 +103,7 @@
 
 .tituloHome {
   font-family: "Playfair Display SC", serif;
-  font-size: 56px !important;
+  font-size: 48px !important;
   font-weight: 200;
   letter-spacing: 2px;
   color: #222222;
@@ -123,7 +123,18 @@
 }
 
 .final-home {
+  display: flex;
+  align-items: center;
   background-color: #ff4500;
+}
+
+.texto-final-home {
+  flex: 1;
+}
+
+.campo-img {
+  max-width: 20%;
+  height: auto;
 }
 
 .footer {
@@ -266,12 +277,12 @@ header {
 }
 
 #ninia-skills {
-  width: 56%;
+  width: 50%;
 }
 
 .img-skills img {
   position: absolute;
-  top: -574px;
+  top: -560px;
   left: 574px;
   width: auto;
   height: auto;
@@ -332,6 +343,23 @@ header {
   padding: 0px; /* Espacio interior opcional */
 }
 
+.final-studies {
+  background-color: #ff4500;
+}
+
+.texto-final-studies {
+  font-family: "Poiret One", cursive;
+  font-size: 20px !important;
+  color: #ffffff;
+}
+
+#texto-final-studies-span {
+  font-family: "Poiret One", cursive;
+  font-size: 20px !important;
+  font-style: italic;
+  color: #ffffff;
+}
+
 .hero-text {
   font-family: "Playfair Display SC", serif;
   font-size: 24px;
@@ -340,7 +368,18 @@ header {
 
 .proyects-title {
   font-family: "Playfair Display SC", serif;
-  font-size: 28px;
+  font-size: 28px !important;
+  color: #222222;
+}
+
+.accordion-button {
+  font-size: 24px !important;
+}
+
+.proyects-title-span {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
   color: #222222;
 }
 

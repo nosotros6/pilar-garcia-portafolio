@@ -40,36 +40,33 @@ secciones.forEach(item => {
 
 // CARRUSEL
 // Define un array con las rutas de las imágenes
-const imagenes = [
-    "./assets/img/carrusel-uno.svg",
-    "./assets/img/carrusel-dos.svg",
-    "./assets/img/carrusel-tres.svg",
-    "./assets/img/carrusel-cuatro.svg",
-    "./assets/img/carrusel-cinco.svg",
-    "./assets/img/carrusel-seis.svg",
-    "./assets/img/carrusel-siete.svg",
-    "./assets/img/carrusel-ocho.svg"
-];
+// const imagenes = [
+//     "./assets/img/carrusel-uno.svg",
+//     "./assets/img/carrusel-dos.svg",
+//     "./assets/img/carrusel-tres.svg",
+//     "./assets/img/carrusel-cuatro.svg",
+//     "./assets/img/carrusel-cinco.svg",
+//     "./assets/img/carrusel-seis.svg",
+//     "./assets/img/carrusel-siete.svg",
+//     "./assets/img/carrusel-ocho.svg"
+// ];
+// const carouselInner = document.getElementById('carouselInner');
+// imagenes.forEach((imagen, index) => {
+//     const carouselItem = document.createElement('div');
+//     carouselItem.classList.add('carousel-item');
+//     if (index === 0) {
+//         carouselItem.classList.add('active');
+//     }
 
-// Obtén la referencia al elemento del carrusel interior por su ID
-const carouselInner = document.getElementById('carouselInner');
+//     const img = document.createElement('img');
+//     img.src = imagen;
+//     img.className = 'd-block w-100';
+//     img.alt = `Diapo ${index + 1}`;
 
-// Itera a través del array de imágenes y crea dinámicamente los elementos del carrusel
-imagenes.forEach((imagen, index) => {
-    const carouselItem = document.createElement('div');
-    carouselItem.classList.add('carousel-item');
-    if (index === 0) {
-        carouselItem.classList.add('active');
-    }
+//     carouselItem.appendChild(img);
+//     carouselInner.appendChild(carouselItem);
+// });
 
-    const img = document.createElement('img');
-    img.src = imagen;
-    img.className = 'd-block w-100';
-    img.alt = `Diapo ${index + 1}`;
-
-    carouselItem.appendChild(img);
-    carouselInner.appendChild(carouselItem);
-});
 // FECHA
 function obtenerFechaActual() {
     const dias = [

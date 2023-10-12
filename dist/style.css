@@ -332,4 +332,22 @@ header {
   padding: 0px; /* Espacio interior opcional */
 }
 
+.hero-text {
+  font-family: "Playfair Display SC", serif;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.proyects-title {
+  font-family: "Playfair Display SC", serif;
+  font-size: 28px;
+  color: #222222;
+}
+
+.proyects-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: #222222;
+}
+
 /*# sourceMappingURL=style.css.map */

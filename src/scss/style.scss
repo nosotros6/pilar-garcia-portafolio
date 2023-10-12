@@ -331,3 +331,23 @@ header {
   text-align: center; /* Esto centrará el texto dentro de los elementos */
   padding: 0px; /* Espacio interior opcional */
 }
+
+// PROYECTOS/PORTAFOLIO
+
+.hero-text {
+  font-family: "Playfair Display SC", serif;
+  font-size: 24px;
+  color: $white;
+}
+
+.proyects-title {
+  font-family: "Playfair Display SC", serif;
+  font-size: 28px;
+  color: $color-primario;
+}
+
+.proyects-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: $color-primario;
+}

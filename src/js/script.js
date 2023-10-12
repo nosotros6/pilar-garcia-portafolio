@@ -3,7 +3,7 @@ const secciones = [
   { texto: 'Proyectos', enlace: 'proyects.html' },
   { texto: 'Estudios', enlace: 'studies.html' },
   { texto: 'Trabajos', enlace: 'jobs.html' },
-  { texto: 'Galería', enlace: 'gallery.html' }
+  { texto: 'Contacto', enlace: 'contact.html' }
 ];
 
 // Obtener la referencia a la lista <ul> por su ID

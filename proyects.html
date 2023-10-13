@@ -21,15 +21,23 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <div class="logo-container">
-      <a href="#">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
         <img src="./assets/Img/logo-pili.svg" alt="Logo" class="logo" />
-        <span class="tooltip">HOME</span>
+        <span class="tooltip">INICIO</span>
+        <span class="navbar-text text-white">Pilar García Royo</span>
       </a>
-      <span class="navbar-text">Pilar García Royo</span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-list navbar-nav ms-auto">
+          <!-- Los elementos <li> y <a> han sido eliminados en el HTML -->
+        </ul>
+      </div>
     </div>
-    <ul class="navbar-list" id="navbarList"></ul>
   </nav>
   <main class="pt-5 my-5">
     <section class="pt-5">
@@ -52,10 +60,10 @@
       </ul>
 
       <!-- INICIO CUERPO DE 1RA TABS -->
-      <div class="tab-content" id="pills-tabContent">
-
+      <div class="tab-content pt-5" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
           <div class="tab-content" id="pills-tabContent">
+            <h2 class="proyects-title text-center mt-5 mb-5 pb-5">SELECCIÓN DE PROYECTOS EN DISEÑO UX / UI</h2>
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <section data-aos="fade-up" class="m-5 pb-3">
                 <!-- 1er tabs UI-->
@@ -71,7 +79,8 @@
                     <div class="accordion-body">
                       <!-- contenido 2da parte UI-->
                       <section class="container my-5">
-                        <h3 class="proyects-subtitle">Landing Page Adopta tu Mascota (examen de certificación TD / 1ra parte:
+                        <h3 class="proyects-subtitle">Landing Page Adopta tu Mascota (examen de certificación TD / 1ra
+                          parte:
                           Estudio UX)
                         </h3>
                         <a href="http://nosotros6.github.io/desafio-td-ux/" target="_blank" rel="noopener noreferrer">
@@ -127,17 +136,19 @@
                     <div class="accordion-body">
                       <section class="container my-5">
                         <h3 class="proyects-subtitle">Mockup Landing Page Estudio de Mercado IDMA 2023</h3>
-                        <span class="text-secondary">Ver la web aquí:</span><a href="http://nosotros6.github.io/desafio-td-ux/"
-                          target="_blank" rel="noopener noreferrer">
+                        <span class="text-secondary">Ver la web aquí:</span><a
+                          href="http://nosotros6.github.io/anexos-estudio-2023/" target="_blank"
+                          rel="noopener noreferrer">
                           <p>http://nosotros6.github.io/anexos-estudio-2023/</p>
                         </a>
                         <iframe src="./assets/pdf/ui-corfo.pdf" width="100%" height="500"></iframe>
                       </section>
                       <section class="container my-5">
-                        <h3 class="proyects-subtitle">Prototipados Landing Page Adopta tu Mascota (examen de certificación TD /
+                        <h3 class="proyects-subtitle">Prototipados Landing Page Adopta tu Mascota (examen de
+                          certificación TD /
                           2da parte)</h3>
-                        <span class="text-secondary">Ver la web aquí:</span><a href="http://nosotros6.github.io/desafio-td-ux/"
-                          target="_blank" rel="noopener noreferrer">
+                        <span class="text-secondary">Ver la web aquí:</span><a
+                          href="http://nosotros6.github.io/desafio-td-ux/" target="_blank" rel="noopener noreferrer">
                           <p>http://nosotros6.github.io/desafio-td-ux</p>
                         </a>
                         <iframe src="./assets/pdf/ui-prueba-td.pdf" width="100%" height="500"></iframe>
@@ -146,24 +157,26 @@
                         <h3 class="proyects-subtitle">Prototipado Desktop de Alta Fidelidad para Checkout del ecommerce
                           Toolmania
                         </h3>
-                        <span class="text-secondary">Ver la web aquí:</span><a href="http://toolmania.cl/" target="_blank"
-                          rel="noopener noreferrer">
+                        <span class="text-secondary">Ver la web aquí:</span><a href="http://toolmania.cl/"
+                          target="_blank" rel="noopener noreferrer">
                           <p>http://toolmania.cl/</p>
                         </a>
                         <iframe src="./assets/pdf/ui-toolmania-desktop.pdf" width="100%" height="500"></iframe>
                       </section>
                       <section class="container my-5">
-                        <h3 class="proyects-subtitle">Prototipado Mobile de Alta Fidelidad para Checkout del ecommerce Toolmania
+                        <h3 class="proyects-subtitle">Prototipado Mobile de Alta Fidelidad para Checkout del ecommerce
+                          Toolmania
                         </h3>
-                        <span class="text-secondary">Ver la web aquí:</span><a href="http://toolmania.cl/" target="_blank"
-                          rel="noopener noreferrer">
+                        <span class="text-secondary">Ver la web aquí:</span><a href="http://toolmania.cl/"
+                          target="_blank" rel="noopener noreferrer">
                           <p>http://toolmania.cl/</p>
                         </a>
                         <iframe src="./assets/pdf/ui-toolmania-mobile.pdf" width="100%" height="500"></iframe>
                       </section>
                       <section class="container my-5">
                         <h3 class="proyects-subtitle">Landing Page Shelter Feet</h3>
-                        <iframe src="./assets/pdf/ui-maqueta-landing-shelter-feet.pdf" width="100%" height="500"></iframe>
+                        <iframe src="./assets/pdf/ui-maqueta-landing-shelter-feet.pdf" width="100%"
+                          height="500"></iframe>
                       </section>
                       <section class="container my-5">
                         <h3 class="proyects-subtitle">Fundación Niño y Cáncer</h3>
@@ -186,11 +199,14 @@
                 </div>
               </section>
             </div>
-          </div>        </div>
+          </div>
+        </div>
 
 
         <!-- INICIO CUERPO DE 2do TABS PROGRAMACION-->
         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <h2 class="proyects-title text-center mt-5 mb-5 pb-5">SELECCIÓN DE PROYECTOS EN DESARROLLO FRONT END</h2>
+
           <section class="container my-5" data-aos="fade-up">
             <h6 class="proyects-subtitle text-center mt-5">Programación de e-commerce</h6>
             <h3 class="proyects-title text-center mt-2 mb-5">Toolmania: Header y Checkout</h3>
@@ -211,61 +227,94 @@
           <section class="container my-5" data-aos="fade-up">
             <h6 class="proyects-subtitle text-center mt-5">Diseño UI & Desarrollo Front End</h6>
             <h3 class="proyects-title text-center mt-2 mb-5">Landing Page Estudio de Mercado IDMA 2023</h3>
+            <span class="text-secondary">Ver código aquí:</span><a href="https://github.com/nosotros6?tab=repositories"
+              target="_blank" rel="noopener noreferrer">
+              <p>https://github.com/nosotros6?tab=repositories</p>
+            </a>
             <span class="text-secondary">Ver la web aquí:</span><a href="http://nosotros6.github.io/desafio-td-ux/"
               target="_blank" rel="noopener noreferrer">
               <p>http://nosotros6.github.io/anexos-estudio-2023/</p>
             </a>
-            <img alt="Portafolio Front End de Pilar García" loading="lazy" width="100%" height="500"; src="./assets/img/idma.png" />
+            <img alt="Portafolio Front End de Pilar García" loading="lazy" width="100%" height="500" ;
+              src="./assets/img/idma.png" />
           </section>
           <section class="container my-5" data-aos="fade-up">
             <h6 class="proyects-subtitle text-center mt-5">Diseño UI & Desarrollo Front End</h6>
             <h3 class="proyects-title text-center mt-2 mb-5">Web Portafolio Front End</h3>
+            <span class="text-secondary">Ver código aquí:</span><a href="https://github.com/nosotros6?tab=repositories"
+              target="_blank" rel="noopener noreferrer">
+              <p>https://github.com/nosotros6?tab=repositories</p>
+            </a>
             <span class="text-secondary">Ver la web aquí:</span><a href="https://nosotros6.github.io/portafolio/"
               target="_blank" rel="noopener noreferrer">
               <p>https://nosotros6.github.io/portafolio/</p>
             </a>
-            <img alt="Portafolio Front End de Pilar García" loading="lazy" width="100%" height="500"; src="./assets/img/portafolio.png" />
+            <img alt="Portafolio Front End de Pilar García" loading="lazy" width="100%" height="500" ;
+              src="./assets/img/portafolio.png" />
           </section>
           <section class="container my" data-aos="fade-up">
             <h6 class="proyects-subtitle text-center mt-5">Ejercicios Bootcamp Desarrollo Front End</h6>
             <h3 class="proyects-title text-center mt-2 mb-5">Animales Salvajes</h3>
+            <span class="text-secondary">Ver código aquí:</span><a href="https://github.com/nosotros6?tab=repositories"
+              target="_blank" rel="noopener noreferrer">
+              <p>https://github.com/nosotros6?tab=repositories</p>
+            </a>
             <span class="text-secondary">Ver la web aquí:</span><a href="https://nosotros6.github.io/Animales-Salvajes/"
               target="_blank" rel="noopener noreferrer">
               <p>https://nosotros6.github.io/Animales-Salvajes/</p>
             </a>
-            <img alt="Portafolio Front End de Pilar García" loading="lazy" width="100%" height="500"; src="./assets/img/animales.png" />
+            <img alt="Portafolio Front End de Pilar García" loading="lazy" width="100%" height="500" ;
+              src="./assets/img/animales.png" />
           </section>
           <section class="container my-5" data-aos="fade-up">
             <h6 class="proyects-subtitle text-center mt-5">Ejercicios Bootcamp Desarrollo Front End</h6>
             <h3 class="proyects-title text-center mt-2 mb-5">Cursos Alfa Web</h3>
+            <span class="text-secondary">Ver código aquí:</span><a href="https://github.com/nosotros6?tab=repositories"
+              target="_blank" rel="noopener noreferrer">
+              <p>https://github.com/nosotros6?tab=repositories</p>
+            </a>
             <span class="text-secondary">Ver la web aquí:</span><a href="https://nosotros6.github.io/cursos-alfaweb/"
               target="_blank" rel="noopener noreferrer">
               <p>https://nosotros6.github.io/cursos-alfaweb/</p>
             </a>
-            <img alt="Portafolio Front End de Pilar García" loading="lazy" width="100%" height="500"; src="./assets/img/alfa-web.png" />
+            <img alt="Portafolio Front End de Pilar García" loading="lazy" width="100%" height="500" ;
+              src="./assets/img/alfa-web.png" />
           </section>
           <section class="container my-5" data-aos="fade-up">
             <h6 class="proyects-subtitle text-center mt-5">Ejercicios Bootcamp Desarrollo Front End</h6>
             <h3 class="proyects-title text-center mt-2 mb-5">Landing Page Ricomida</h3>
-            <span class="text-secondary">Ver la web aquí:</span><a href="https://nosotros6.github.io/ricomida-designer-ux-ui/"
+            <span class="text-secondary">Ver código aquí:</span><a href="https://github.com/nosotros6?tab=repositories"
               target="_blank" rel="noopener noreferrer">
+              <p>https://github.com/nosotros6?tab=repositories</p>
+            </a>
+            <span class="text-secondary">Ver la web aquí:</span><a
+              href="https://nosotros6.github.io/ricomida-designer-ux-ui/" target="_blank" rel="noopener noreferrer">
               <p>https://nosotros6.github.io/ricomida-designer-ux-ui/</p>
             </a>
-            <img alt="Portafolio Front End de Pilar García" loading="lazy" width="100%" height="500"; src="./assets/img/ricomida.png" />
+            <img alt="Portafolio Front End de Pilar García" loading="lazy" width="100%" height="500" ;
+              src="./assets/img/ricomida.png" />
           </section>
           <section class="container my-5" data-aos="fade-up">
             <h6 class="proyects-subtitle text-center mt-5">Examen Certificación TD</h6>
             <h3 class="proyects-title text-center mt-2 mb-5">Landing Page Adopta una Mascota</h3>
+            <span class="text-secondary">Ver código aquí:</span><a href="https://github.com/nosotros6?tab=repositories"
+              target="_blank" rel="noopener noreferrer">
+              <p>https://github.com/nosotros6?tab=repositories</p>
+            </a>
             <span class="text-secondary">Ver la web aquí:</span><a href="https://nosotros6.github.io/desafio-td-ux/"
               target="_blank" rel="noopener noreferrer">
               <p>https://nosotros6.github.io/desafio-td-ux/</p>
             </a>
-            <img alt="Portafolio Front End de Pilar García" loading="lazy" width="100%" height="500"; src="./assets/img/landing-examen-td.png" />
+            <img alt="Portafolio Front End de Pilar García" loading="lazy" width="100%" height="500" ;
+              src="./assets/img/landing-examen-td.png" />
           </section>
         </div>
 
         <!-- INICIO CUERPO DE 3er TABS -->
         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <h2 class="proyects-title text-center mt-5 mb-5 pb-5">SELECCIÓN DE PROYECTOS EN GESTIÓN Y CREACIÓN DE
+            CONTENIDOS</h2>
+
           <section class="container" data-aos="fade-up">
             <h3 class="proyects-title text-center pt-5 mt-5 mb-5">Boletines Mensuales y Guiones para empresas</h3>
             <iframe src="./assets/pdf/acop-boletin.pdf" width="100%" height="500"></iframe>
@@ -280,26 +329,34 @@
           </section>
           <section class="container" data-aos="fade-up">
             <h3 class="proyects-title text-center pt-5 mt-5 mb-5">Proyecto Content Manager / 2022</h3>
-            <p class="m-5">Examen para la certificación de Content Manager, bootcamp Corfo y Talento Digital Chile (2022)</p>
+            <p class="m-5">Examen para la certificación de Content Manager, bootcamp Corfo y Talento Digital Chile
+              (2022)</p>
             <iframe src="./assets/pdf/content-manager.pdf" width="100%" height="500"></iframe>
           </section>
           <section class="container" data-aos="fade-up">
-            <h3 class="proyects-title text-center pt-5 mt-5 mb-5">Estudio de Mercado para Instituto del Medio Ambiente</h3>
-            <p class="m-5">Asesoría en la investigación y redacción del Estudio de Mercado sobre La Restauración de Bosque Nativo en las regiones del Bío Bío, Los Ríos y Los Lagos, para el Instituto del Medio Ambiente, año 2023. </p>
+            <h3 class="proyects-title text-center pt-5 mt-5 mb-5">Estudio de Mercado para Instituto del Medio Ambiente
+            </h3>
+            <p class="m-5">Asesoría en la investigación y redacción del Estudio de Mercado sobre La Restauración de
+              Bosque Nativo en las regiones del Bío Bío, Los Ríos y Los Lagos, para el Instituto del Medio Ambiente, año
+              2023. </p>
             <img src="./assets/Img/idma-corfo.png" width="100%" height="500"></img>
           </section>
           <section class="container" data-aos="fade-up">
-            <h3 class="proyects-title text-center pt-5 mt-5 mb-5">Asesoría en Gestión de Contenidos para Fundación Entornasol</h3>
-            <p class="m-5">Asesoría en desarrollo web y colaboración en la creación y gestión de contenidos para sitio web, redes sociales, campañas y cursos de la Fundación Entornasol y su programa CORFO "Tea Time Tiempo de CreSer". </p>
+            <h3 class="proyects-title text-center pt-5 mt-5 mb-5">Asesoría en Gestión de Contenidos para Fundación
+              Entornasol</h3>
+            <p class="m-5">Asesoría en desarrollo web y colaboración en la creación y gestión de contenidos para sitio
+              web, redes sociales, campañas y cursos de la Fundación Entornasol y su programa CORFO "Tea Time Tiempo de
+              CreSer". </p>
             <iframe src="./assets/pdf/yoga-entornasol.pdf" width="100%" height="500"></iframe>
           </section>
           <section class="container" data-aos="fade-up">
             <h3 class="proyects-title text-center pt-5 mt-5 mb-5">Documentales Travesía, Historia de Concepción</h3>
-            <p class="m-5">Producción, guiones y conducción de la serie de documentales Travesía, Historia de Concepción, financiado por Fondart, Corporación Cultural Pencopolitana y Gobierno Regional.</p>
-              <span class="text-secondary">Ver capítulos aquí:</span><a href="https://www.youtube.com/watch?v=GGg-fEHd4Os&t=142s"
-                target="_blank" rel="noopener noreferrer">
-                <p>Travesía, Historia de Concepción, capítulo 1</p>
-              </a>
+            <p class="m-5">Producción, guiones y conducción de la serie de documentales Travesía, Historia de
+              Concepción, financiado por Fondart, Corporación Cultural Pencopolitana y Gobierno Regional.</p>
+            <span class="text-secondary">Ver capítulos aquí:</span><a
+              href="https://www.youtube.com/watch?v=GGg-fEHd4Os&t=142s" target="_blank" rel="noopener noreferrer">
+              <p>Travesía, Historia de Concepción, capítulo 1</p>
+            </a>
             <img src="./assets/Img/travesia.png" width="100%" height="500"></img>
           </section>
         </div>
@@ -310,7 +367,10 @@
   </main>
   <footer class="footer">
     <div id="footerContainer">
-      <ul id="socialIconsList" class="nav flex-column"></ul>
+      <ul id="socialIconsList" class="nav flex-column">
+        <p class="text-center"><a class="whatsapp-footer text-white" href="https://wa.me/NUMERO_DE_CELULAR"
+            target="_blank"> <i class="fab fa-whatsapp text-white"></i> +56 994 40 45 16</a></p>
+      </ul>
     </div>
   </footer>
 

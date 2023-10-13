@@ -21,97 +21,95 @@
 </head>
 
 <body>
-    <main>
-        <nav class="navbar">
-            <div class="logo-container">
-              <a href="#">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
                 <img src="./assets/Img/logo-pili.svg" alt="Logo" class="logo" />
-                <span class="tooltip">HOME</span>
-              </a>
-              <span class="navbar-text">Pilar García Royo</span>
+                <span class="tooltip">INICIO</span>
+                <span class="navbar-text text-white">Pilar García Royo</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-list navbar-nav ms-auto">
+                    <!-- Los elementos <li> y <a> han sido eliminados en el HTML -->
+                </ul>
             </div>
-            <ul class="navbar-list" id="navbarList"></ul>
-          </nav>
-        <!-- <header>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner" id="carouselInner">
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+        </div>
+    </nav>
+ 
+    <section class="my-5 pt-5">
+        <h1 class="epigrafeTituloHome text-center pt-5">PILAR GARCÍA ROYO</h1>
+        <h1 class="epigrafeTituloHome2 text-center">DISEÑADORA WEB & PERIODISTA</h1>
+        <h1 class="tituloHome text-center mt-5">UNA BUENA MEZCLA</h1>
+    </section>
+    <section class="textoHome row">
+        <div class="col-12 col-lg-6 m-3">
+            <p>Hola! Me dicen Pili y te doy la bienvenida a mi portafolio. Soy Diseñadora Web, especializada en
+                Experiencia de Usuario, Gestión de Contenidos y Desarrollo Front End, con manejo de varios lenguajes
+                de
+                programación y frameworks que puedes <span> <a href="studies.html">revisar aquí.</a></span> Poseo el
+                título de
+                Periodista de la Universidad de
+                Chile con un diplomado en Marketing de la Universidad del Bío-Bío. Soy creativa y con buenas
+                habilidades
+                comunicacionales. Amo el trabajo en equipo, el diseño y la educación continua.</p>
+            <p>Desde que salí como Periodista de la Universidad de Chile, trabajé por 15 años en televisión, radio,
+                instituciones culturales y de educación. Luego, emprendí empresas propias y familiares que cerraron
+                por
+                la pandemia del Covid en 2020. En vez de desanimarme, vi la oportunidad de reinventarme
+                profesionalmente, abordando los nuevos desafíos de la información y las comunicaciones. Así fue como
+                llegó el diseño y la programación web.</p>
+            <p class="mt-5">Desde 2020, he trabajado de manera integrada para crear experiencias digitales
+                efectivas y satisfactorias, asegurando una comunicación fluida y efectiva con el usuario a través de
+                distintas
+                estrategias, tales como: </p>
+            <div class="pt-5">
+                <img src="./assets/img/camaraHome.png" alt="Imagen de una cámara de fotos" class="img-camara m-3">
             </div>
-        </header> -->
-        <section class="my-5">
-            <h1 class="epigrafeTituloHome text-center pt-5">PILAR GARCÍA ROYO</h1>
-            <h1 class="epigrafeTituloHome2 text-center">DISEÑADORA WEB & PERIODISTA</h1>
-            <h1 class="tituloHome text-center mt-5">UNA BUENA MEZCLA</h1>
-        </section>
-        <section class="textoHome row m-5">
-            <div class="col-6 m-3">
-                <p>Hola! Me dicen Pili y te doy la bienvenida a mi portafolio. Soy Diseñadora Web, especializada en
-                    Experiencia de Usuario, Gestión de Contenidos y Desarrollo Front End, con manejo de varios lenguajes
-                    de
-                    programación y frameworks que puedes <span> <a href="studies.html">revisar aquí.</a></span> Poseo el
-                    título de
-                    Periodista de la Universidad de
-                    Chile con un diplomado en Marketing de la Universidad del Bío-Bío. Soy creativa y con buenas
-                    habilidades
-                    comunicacionales. Amo el trabajo en equipo, el diseño y la educación continua.</p>
-                <p>Desde que salí como Periodista de la Universidad de Chile, trabajé por 15 años en televisión, radio,
-                    instituciones culturales y de educación. Luego, emprendí empresas propias y familiares que cerraron
-                    por
-                    la pandemia del Covid en 2020. En vez de desanimarme, vi la oportunidad de reinventarme
-                    profesionalmente, abordando los nuevos desafíos de la información y las comunicaciones. Así fue como
-                    llegó el diseño y la programación web.</p>
-                <p class="mt-5">Desde 2020, he trabajado de manera integrada para crear experiencias digitales
-                    efectivas y satisfactorias, asegurando una comunicación fluida y efectiva con el usuario a través de
-                    distintas
-                    estrategias, tales como: </p>
-                <div class="pt-5">
-                    <img src="./assets/img/camaraHome.png" alt="Imagen de una cámara de fotos" class="img-camara m-3">
-                </div>
-            </div>
-            <section class="col-5 mt-3">
-                <img src="./assets/img/biobio.png" alt="Panorama del río Bío-Bío" id="rio-biobio">
-                <p class="mt-5">Investigar las tendencias de mercado; seleccionar las palabras clave para
-                    mejorar la visibilidad en los motores de búsqueda (SEO); utilizar la narrativa para contar historias
-                    que conecten emocionalmente con la audiencia; manejar herramientas de análisis, prestando atención a
-                    la
-                    retroalimentación de la audiencia, entre otras.</p>
-                <p>Finalmente, te cuento que las fotografías de este portafolio son del campo donde vivo, en Hualqui, a
-                    orillas del Río Bío Bío, Chile.</p>
-                <p class="mb-5 pb-5">Gracias :)</p>
-            </section>
-        </section>
-        <section class="row final-home">
-            <h4 class="col-5 texto-final-home m-5">"Me gusta tener libertad y desarrollar mi creatividad plena. Amo el
-                diseño y el lenguaje. Ambos se conjugan perfectamente en mi nueva vocación: el Desarrollo Web."</h4>
-            <div class="col-7 m-5 ps-5">
+        </div>
+        <section class="col-12 col-lg-5 mt-3">
+            <img src="./assets/img/biobio.png" alt="Panorama del río Bío-Bío" id="rio-biobio">
+            <p class="mt-5">Investigar las tendencias de mercado; seleccionar las palabras clave para
+                mejorar la visibilidad en los motores de búsqueda (SEO); utilizar la narrativa para contar historias
+                que conecten emocionalmente con la audiencia; manejar herramientas de análisis, prestando atención a
+                la
+                retroalimentación de la audiencia, entre otras.</p>
+            <p>Finalmente, te cuento que las fotografías de este portafolio son del campo donde vivo, en Hualqui, a
+                orillas del Río Bío Bío, Chile.</p>
+            <p class="mb-5">Gracias :)</p>
+            <div class="galeria-home text-center mb-5">
                 <img src="./assets/img/mariposa.svg" class="campo-img" alt="Parcela Castañares">
                 <img src="./assets/img/otonio.svg" class="campo-img" alt="Parcela Castañares">
                 <img src="./assets/img/caqui-arbol.svg" class="campo-img" alt="Parcela Castañares">
                 <img src="./assets/img/flor.svg" class="campo-img" alt="Parcela Castañares">
             </div>
         </section>
+    </section>
+    <section class="row final-home">
+        <h4 class="col-5 texto-final-home m-5">"Me gusta tener libertad y desarrollar mi creatividad plena. Amo el
+            diseño y el lenguaje. Ambos se conjugan perfectamente en mi nueva vocación: el Desarrollo Web."</h4>
+        <div class="col-7 m-5 ps-5">
+            <img src="./assets/img/mariposa.svg" class="campo-img" alt="Parcela Castañares">
+            <img src="./assets/img/otonio.svg" class="campo-img" alt="Parcela Castañares">
+            <img src="./assets/img/caqui-arbol.svg" class="campo-img" alt="Parcela Castañares">
+            <img src="./assets/img/flor.svg" class="campo-img" alt="Parcela Castañares">
+        </div>
+    </section>
     </main>
 
     <footer class="footer">
         <div id="footerContainer">
-            <ul id="socialIconsList" class="nav flex-column"></ul>
+            <ul id="socialIconsList" class="nav flex-column">
+                <p class="text-center"><a class="whatsapp-footer text-white" href="https://wa.me/NUMERO_DE_CELULAR"
+                        target="_blank"> <i class="fab fa-whatsapp text-white"></i> +56 994 40 45 16</a></p>
+            </ul>
         </div>
-        <p class="texto-footer text-center pb-5">Fecha de hoy: <span id="fecha-actual"></span></p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>

@@ -2,12 +2,14 @@ document.addEventListener('DOMContentLoaded', function() {
   const footerData = {
     socialIcons: [
       { iconClasses: ['fab', 'fa-github-square'], link: 'https://github.com/nosotros6', target: '_blank' },
-      { iconClasses: ['fas', 'fa-envelope'], link: '#' },
-      { iconClasses: ['fab', 'fa-linkedin'], link: '#' },
+      { iconClasses: ['fas', 'fa-envelope'], link: 'mailto:pilargarciaroyo@gmail.com' },
+      { iconClasses: ['fab', 'fa-linkedin'], link: 'https://www.linkedin.com/in/pilar-garcia-royo-diseñadora-web' },
+      // { iconClasses: ['fab', 'fa-whatsapp'], link: 'https://wa.me/NUMERO_DE_CELULAR' },
+
     ],
     githubLink: 'https://github.com/nosotros6/pilar-garcia-portafolio',
     githubImageSrc: 'https://user-images.githubusercontent.com/5679180/79618120-0daffb80-80be-11ea-819e-d2b0fa904d07.gif',
-    footerText: 'Diseño y Desarrollo Web: Pilar García Royo - Agosto de 2022 / Actualización: Octubre de 2023 / Fotografías: Isabel Torres García',
+    footerText: 'Diseño y Desarrollo Web: Pilar García Royo -  pilargarciaroyo@gmail.com - Agosto de 2022 / Actualización: Octubre de 2023 / Fotografías: Isabel Torres',
   };
 
   function populateFooter(containerId, data) {

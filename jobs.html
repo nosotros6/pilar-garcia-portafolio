@@ -21,25 +21,33 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <div class="logo-container">
-      <a href="#">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
         <img src="./assets/Img/logo-pili.svg" alt="Logo" class="logo" />
-        <span class="tooltip">HOME</span>
+        <span class="tooltip">INICIO</span>
+        <span class="navbar-text text-white">Pilar García Royo</span>
       </a>
-      <span class="navbar-text">Pilar García Royo</span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-list navbar-nav ms-auto">
+          <!-- Los elementos <li> y <a> han sido eliminados en el HTML -->
+        </ul>
+      </div>
     </div>
-    <ul class="navbar-list" id="navbarList"></ul>
   </nav>
 
-  <main>
-    <header class="pb-0 pt-3">
+  <main class="mb-5">
+    <header class="pb-0 pt-5">
       <div style="position: relative;">
         <img src="./assets/Img/caquis-footer.svg" alt="Caquis de mi Jardín" class="w-100">
       </div>
-      <div style="position: absolute; background-color: black; color: white; top: 200px; left: 0px;">
-        <h4 class="texto-final-home m-3">"Amar a la vida a través del trabajo, es intimar con <br> el más recóndito
-          secreto de la vida."<span id="texto-final-home-span">(Khalil Gibran)</span></h4>
+      <div class="texto-gibran">
+        <h4 class="texto-hero-jobs m-3">"Amar a la vida a través del trabajo, es intimar con <br> el más recóndito
+          secreto de la vida."<span id="texto-hero-jobs-span">(Khalil Gibran)</span></h4>
       </div>
       </div>
     </header>
@@ -78,10 +86,10 @@
           <a href="https://edutecno.cl/" target="_blank" class="card-link">
             <img class="card-img-top w-50 m-5" src="./assets/Img/logo-edutecno.png" alt="Web Edutecno"></a>
         </div>
-        <h3 class="card-title">Edutecno</h3>
+        <h3 class="card-title">Asistente de tutor</h3>
+        <h4 class="card-subtitle">Edutecno</h4>
+        <p class="card-subtitle">Ayudantía de clases front end trainee.</p>
         <p class="card-info">Desde marzo de 2022 a la fecha</p>
-        <h4 class="card-subtitle">Asistente de tutor</h4>
-        <p class="card-info">Ayudantía de clases front end trainee.</p>
         <a href="https://edutecno.cl/" target="_blank" class="card-link">Sitio web de la empresa</a>
       </div>
 
@@ -90,12 +98,12 @@
           <a href="https://toolmania.cl/" target="_blank" class="card-link">
             <img class="card-img-top w-50 m-5" src="./assets/Img/logo-toolmania.png" alt="Web Toolmania"></a>
         </div>
-        <h3 class="card-title">Toolmanía SpA</h3>
-        <p class="card-info">Septiembre de 2022 a marzo de 2023</p>
-        <h4 class="card-subtitle">Front End Developer/Diseño Ui</h4>
-        <p class="card-info">Diseño Ui y desarrollo front end para proyecto de rediseño del header y checkout de
+        <h3 class="card-title">Front End Developer/Diseño Ui</h3>
+        <h4 class="card-subtitle">Toolmanía SpA</h4>
+        <p class="card-subtitle">Diseño Ui y desarrollo front end para proyecto de rediseño del header y checkout de
           e-commerce</p>
-        <a href="https://toolmania.cl/" target="_blank" class="card-link">Sitio web de la empresa</a>
+        <p class="card-info">Septiembre de 2022 a marzo de 2023</p>
+        <a href="https://toolmania.cl/" target="_blank" class="card-link pb-3">Sitio web de la empresa</a>
       </div>
 
       <div id="card-jobs" class="card">
@@ -103,11 +111,11 @@
           <a href="https://avianet.cl/aviaweb/" target="_blank" class="card-link">
             <img class="card-img-top w-50 m-5" src="./assets/Img/logo-avianet.png" alt="Web Avianet"></a>
         </div>
-        <h3 class="card-title">Avianet SpA</h3>
+        <h3 class="card-title">Asesora web</h3>
+        <h4 class="card-subtitle">Avianet SpA</h4>
+        <p class="card-subtitle">Diseño y desarrollo web para pyme</p>
         <p class="card-info">Entre junio y agosto de 2022</p>
-        <h4 class="card-subtitle">Asesora web</h4>
-        <p class="card-info">Diseño y desarrollo web para pyme</p>
-        <a href="https://avianet.cl/aviaweb/" target="_blank" class="card-link">Sitio web de la empresa</a>
+        <a href="https://avianet.cl/aviaweb/" target="_blank" class="card-link pb-3">Sitio web de la empresa</a>
       </div>
 
       <div id="card-jobs" class="card">
@@ -115,10 +123,10 @@
           <a href="https://teatropencopolitano.cl/" target="_blank" class="card-link">
             <img class="card-img-top w-50 m-5" src="./assets/Img/cultura.jpeg" alt="Teatro Pencopolitano"></a>
         </div>
-        <h3 class="card-title">Corporación Cultural Teatro Pencopolitano</h3>
+        <h3 class="card-title">Periodista</h3>
+        <h4 class="card-subtitle">Corporación Cultural Teatro Pencopolitano</h4>
+        <p class="card-subtitle">Gestión Cultural y de Contenidos</p>
         <p class="card-info">Entre marzo de 1997 y marzo de 2009</p>
-        <h4 class="card-subtitle">Periodista</h4>
-        <p class="card-info">Gestión Cultural y de Contenidos</p>
         <a href="https://teatropencopolitano.cl/" target="_blank" class="card-link">Sitio web de la empresa</a>
       </div>
     </section>
@@ -127,7 +135,10 @@
 
   <footer class="footer">
     <div id="footerContainer">
-      <ul id="socialIconsList" class="nav flex-column"></ul>
+      <ul id="socialIconsList" class="nav flex-column">
+        <p class="text-center"><a class="whatsapp-footer text-white" href="https://wa.me/NUMERO_DE_CELULAR"
+            target="_blank"> <i class="fab fa-whatsapp text-white"></i> +56 994 40 45 16</a></p>
+      </ul>
     </div>
   </footer>
 

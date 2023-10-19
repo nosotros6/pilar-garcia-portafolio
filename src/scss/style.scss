@@ -66,10 +66,6 @@ $white: #ffffff;
   z-index: 2;
 }
 
-// .navbar-item {
-//   text-decoration: underline; /* Subrayar el texto */
-// }
-
 /* Estilos base para los enlaces y texto del navbar */
 .navbar-list,
 .navbar-text {
@@ -305,7 +301,7 @@ a.whatsapp-footer:hover {
 }
 
 header {
-  background-image: url("./assets/Img/tools.png");
+  background-image: url("./assets/img/tools.png");
   background-size: cover;
   background-position: center;
   height: auto;

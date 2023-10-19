@@ -85,12 +85,6 @@ $white: #ffffff;
   transition: color 0.3s;
 }
 
-/* Estilos para el enlace activo */
-.navbar-item a.active {
-  color: $color-secundario;
-  text-decoration: underline !important; /* Subrayar el enlace activo */
-}
-
 /* Estilos para el enlace en hover */
 .navbar-item a:hover {
   color: $color-secundario;

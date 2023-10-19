@@ -1,33 +1,27 @@
+// Objeto con la información de las secciones del menú
+const menuItems = [
+  { text: "Inicio", href: "index.html" },
+  { text: "Proyectos", href: "proyects.html" },
+  { text: "Estudios", href: "studies.html" },
+  { text: "Trabajos", href: "jobs.html" }
+];
 
+// Obtén el elemento <ul> del menú
+const menu = document.getElementById("menu");
 
-// CARRUSEL
-// Define un array con las rutas de las imágenes
-// const imagenes = [
-//     "./assets/img/carrusel-uno.svg",
-//     "./assets/img/carrusel-dos.svg",
-//     "./assets/img/carrusel-tres.svg",
-//     "./assets/img/carrusel-cuatro.svg",
-//     "./assets/img/carrusel-cinco.svg",
-//     "./assets/img/carrusel-seis.svg",
-//     "./assets/img/carrusel-siete.svg",
-//     "./assets/img/carrusel-ocho.svg"
-// ];
-// const carouselInner = document.getElementById('carouselInner');
-// imagenes.forEach((imagen, index) => {
-//     const carouselItem = document.createElement('div');
-//     carouselItem.classList.add('carousel-item');
-//     if (index === 0) {
-//         carouselItem.classList.add('active');
-//     }
+// Itera sobre el objeto y crea las etiquetas <li>
+menuItems.forEach(item => {
+  const listItem = document.createElement("li");
+  listItem.classList.add("navbar-item", "me-5");
 
-//     const img = document.createElement('img');
-//     img.src = imagen;
-//     img.className = 'd-block w-100';
-//     img.alt = `Diapo ${index + 1}`;
+  const link = document.createElement("a");
+  link.textContent = item.text;
+  link.href = item.href;
+  link.classList.add("text-menu", "text-decoration-none");
 
-//     carouselItem.appendChild(img);
-//     carouselInner.appendChild(carouselItem);
-// });
+  listItem.appendChild(link);
+  menu.appendChild(listItem);
+});
 
 // FECHA
 function obtenerFechaActual() {

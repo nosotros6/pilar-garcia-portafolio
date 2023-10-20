@@ -23,6 +23,7 @@ menuItems.forEach(item => {
   menu.appendChild(listItem);
 });
 
+
 // FECHA
 function obtenerFechaActual() {
     const dias = [

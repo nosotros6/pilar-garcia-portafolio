@@ -325,6 +325,8 @@ header {
 }
 
 .nav-link {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 20px;
   color: dimgrey;
 }
 
@@ -426,8 +428,22 @@ header {
   color: $color-primario;
 }
 
+.proyects-tabs-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: $color-primario;
+}
+
 /* Media query para pantallas pequeñas */
 
+@media (max-width: 500px) {
+  .nav-link {
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 13px;
+    color: dimgrey;
+    padding: 0.5rem;
+  }
+}
 @media (max-width: 769px) {
   .card-grid {
     position: relative;
@@ -515,6 +531,12 @@ header {
   }
   #rio-biobio {
     display: none;
+  }
+
+  .proyects-tabs-subtitle {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: $color-primario;
   }
 }
 

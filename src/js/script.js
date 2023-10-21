@@ -1,6 +1,7 @@
 // Objeto con la información de las secciones del menú
 const menuItems = [
-  { text: "Inicio", href: "index.html" },
+  { text: "Portada", href: "index.html" },
+  { text: "Inicio", href: "index1.html" },
   { text: "Proyectos", href: "proyects.html" },
   { text: "Estudios", href: "studies.html" },
   { text: "Trabajos", href: "jobs.html" }
@@ -68,3 +69,7 @@ function obtenerFechaActual() {
   var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
       return new bootstrap.Tooltip(tooltipTriggerEl);
   });
+
+
+// BOTON COVER
+

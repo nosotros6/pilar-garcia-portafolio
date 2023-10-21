@@ -31,7 +31,7 @@
 }
 
 .navbar-text {
-  color: #ffffff;
+  color: hwb(0 100% 0%);
   font-family: "Roboto Flex", sans-serif;
   font-size: 16px;
 }
@@ -74,7 +74,7 @@
 }
 
 .navbar-item a {
-  color: #ffffff;
+  color: hwb(0 100% 0%);
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -121,14 +121,14 @@
 .texto-final-home {
   font-family: "Poiret One", cursive;
   font-size: 20px !important;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
 }
 
 #texto-final-home-span {
   font-family: "Poiret One", cursive;
   font-size: 20px !important;
   font-style: italic;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
 }
 
 .final-home {
@@ -152,21 +152,21 @@
 
 .icono-footer {
   font-size: 40px;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
 }
 
 .icono-footer a {
   display: inline-block;
   margin-right: 10px;
   text-decoration: none;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
 }
 
 .texto-footer {
   font-family: "Roboto Flex", sans-serif;
   font-size: 14px;
   font-weight: 200;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
 }
 
 .icono-footer a:hover {
@@ -175,7 +175,7 @@
 
 a.whatsapp-footer {
   text-decoration: none;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
 }
 
 a.whatsapp-footer:hover {
@@ -200,7 +200,7 @@ a.whatsapp-footer:hover {
 .titleJobs {
   font-family: "Playfair Display SC", serif;
   font-size: 28px;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
 }
 
 .texto-gibran {
@@ -214,7 +214,7 @@ a.whatsapp-footer:hover {
 .texto-hero-jobs {
   font-family: "Poiret One", cursive;
   font-size: 20px !important;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
 }
 
 .card-grid {
@@ -291,13 +291,13 @@ a.whatsapp-footer:hover {
   font-size: 24px !important;
   font-weight: 400;
   letter-spacing: 3px;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
 }
 
 .skills-list {
   font-family: "Raleway", sans-serif;
   font-size: 20px !important;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
 }
 
 header {
@@ -342,7 +342,7 @@ header {
 .toolsTitle {
   font-family: "Playfair Display SC", serif;
   font-size: 24px;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
   padding: 40px 0px 4px 0px;
 }
 
@@ -368,16 +368,16 @@ header {
 }
 
 #socialIconsList li {
-  margin: 0 10px; /* Espacio entre los íconos */
+  margin: 0 10px;
   list-style: none;
 }
 
 #footerContainer {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Esto centrará los elementos horizontalmente */
-  text-align: center; /* Esto centrará el texto dentro de los elementos */
-  padding: 0px; /* Espacio interior opcional */
+  align-items: center;
+  text-align: center;
+  padding: 0px;
 }
 
 .final-studies {
@@ -387,20 +387,20 @@ header {
 .texto-final-studies {
   font-family: "Poiret One", cursive;
   font-size: 20px !important;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
 }
 
 #texto-final-studies-span {
   font-family: "Poiret One", cursive;
   font-size: 20px !important;
   font-style: italic;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
 }
 
 .hero-text {
   font-family: "Playfair Display SC", serif;
   font-size: 24px;
-  color: #ffffff;
+  color: hwb(0 100% 0%);
 }
 
 .proyects-title {
@@ -430,6 +430,98 @@ header {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   color: #222222;
+}
+
+.cover-line {
+  height: 20px;
+  background-color: #ff4500;
+}
+
+.epigrafeTituloCover {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px !important;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+
+.cover-ingresar {
+  margin-top: 80px;
+}
+
+.parrafo-cover {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px !important;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
+.boton-cover {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px !important;
+  font-weight: 200;
+  letter-spacing: 3px;
+  background-color: #e2e2e2;
+}
+
+.loading-screen {
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.loading {
+  width: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loading span {
+  width: 32px;
+  height: 32px;
+  background-color: red;
+  margin: 3px;
+  animation: scale 1.5s linear infinite;
+}
+
+@keyframes scale {
+  50% {
+    transform: scale(1.2);
+  }
+}
+.loading span:nth-child(1) {
+  border-radius: 50% 50% 0 50%;
+  background-color: #FABEA7;
+  transform-origin: bottom right;
+}
+
+.loading span:nth-child(2) {
+  border-radius: 50% 50% 50% 0;
+  background-color: #BFCCB5;
+  transform-origin: bottom left;
+  animation-delay: 0.5s;
+}
+
+.loading span:nth-child(3) {
+  border-radius: 50% 0 50% 50%;
+  background-color: #B7B7B7;
+  transform-origin: top right;
+  animation-delay: 1.5s;
+}
+
+.loading span:nth-child(4) {
+  border-radius: 0 50% 50% 50%;
+  background-color: #FBE2E5;
+  transform-origin: top left;
+  animation-delay: 1s;
 }
 
 /* Media query para pantallas pequeñas */
@@ -472,12 +564,12 @@ header {
     font-size: 20px !important;
     font-weight: 400;
     letter-spacing: 3px;
-    color: #ffffff;
+    color: hwb(0 100% 0%);
   }
   .skills-list {
     font-family: "Raleway", sans-serif;
     font-size: 16px !important;
-    color: #ffffff;
+    color: hwb(0 100% 0%);
   }
   .icon-tools-section {
     display: none;
@@ -492,12 +584,12 @@ header {
   .texto-hero-jobs {
     font-family: "Poiret One", cursive;
     font-size: 12px !important;
-    color: #ffffff;
+    color: hwb(0 100% 0%);
   }
   .hero-text {
     font-family: "Playfair Display SC", serif;
     font-size: 20px;
-    color: #ffffff;
+    color: hwb(0 100% 0%);
   }
   .proyects-title {
     font-family: "Playfair Display SC", serif;
@@ -550,6 +642,175 @@ header {
   .final-studies {
     display: none;
   }
+}
+.portfolio-experiment a {
+  color: hwb(0 100% 0%);
+  padding: 0.5em calc(0.5em * 1.2);
+  display: inline-block;
+  border: 2px solid transparent;
+  position: relative;
+  font-size: 1em;
+  letter-spacing: 0.07em;
+}
+.portfolio-experiment a .text {
+  padding: 0 0.3em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  transform: translate3d(0, 0.5em, 0);
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+.portfolio-experiment a:after {
+  position: absolute;
+  content: "";
+  bottom: -2px;
+  left: calc(0.5em * 1.2);
+  right: calc(0.5em * 1.2);
+  height: 2px;
+  background: #ff4500;
+  transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+  transform-origin: left;
+}
+.portfolio-experiment .line {
+  position: absolute;
+  background: #ff4500;
+}
+.portfolio-experiment .line.-right, .portfolio-experiment .line.-left {
+  width: 2px;
+  bottom: -2px;
+  top: -2px;
+  transform: scale3d(1, 0, 1);
+}
+.portfolio-experiment .line.-top, .portfolio-experiment .line.-bottom {
+  height: 2px;
+  left: -2px;
+  right: -2px;
+  transform: scale3d(0, 1, 1);
+}
+.portfolio-experiment .line.-right {
+  right: -2px;
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+  transform-origin: top;
+}
+.portfolio-experiment .line.-top {
+  top: -2px;
+  transition: transform 0.08s linear 0.43s;
+  transform-origin: left;
+}
+.portfolio-experiment .line.-left {
+  left: -2px;
+  transition: transform 0.08s linear 0.51s;
+  transform-origin: bottom;
+}
+.portfolio-experiment .line.-bottom {
+  bottom: -2px;
+  transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+  transform-origin: right;
+}
+.portfolio-experiment a:hover .text,
+.portfolio-experiment a:active .text {
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+.portfolio-experiment a:hover:after,
+.portfolio-experiment a:active:after {
+  transform: scale3d(0, 1, 1);
+  right: -2px;
+  left: -2px;
+  transform-origin: right;
+  transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+}
+.portfolio-experiment a:hover .line,
+.portfolio-experiment a:active .line {
+  transform: scale3d(1, 1, 1);
+}
+.portfolio-experiment a:hover .line.-right,
+.portfolio-experiment a:active .line.-right {
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+  transform-origin: bottom;
+}
+.portfolio-experiment a:hover .line.-top,
+.portfolio-experiment a:active .line.-top {
+  transition: transform 0.08s linear 0.4s;
+  transform-origin: right;
+}
+.portfolio-experiment a:hover .line.-left,
+.portfolio-experiment a:active .line.-left {
+  transition: transform 0.08s linear 0.48s;
+  transform-origin: top;
+}
+.portfolio-experiment a:hover .line.-bottom,
+.portfolio-experiment a:active .line.-bottom {
+  transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+  transform-origin: left;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: rgba(255, 171, 157, 0.5);
+  width: 56px;
+  height: 56px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Playfair Display SC", serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  vertical-align: middle;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 48px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #ff4500;
+}
+
+.cta:hover {
+  color: hwb(0 100% 0%);
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+  stroke: hwb(0 100% 0%);
+}
+
+.cta:active {
+  transform: scale(0.96);
 }
 
 /*# sourceMappingURL=style.css.map */

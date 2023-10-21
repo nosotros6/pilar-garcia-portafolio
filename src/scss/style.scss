@@ -436,6 +436,10 @@ header {
 }
 
 // COVER
+.espaciador-cover {
+height: 360px;
+}
+
 .cover-line {
 height: 20px;
 background-color: $color-secundario;
@@ -541,6 +545,10 @@ margin-top: 80px;
     color: dimgrey;
     padding: 0.5rem;
   }
+
+  .espaciador-cover {
+    height: 200px;
+    }
 }
 @media (max-width: 769px) {
   .card-grid {

@@ -432,6 +432,10 @@ header {
   color: #222222;
 }
 
+.espaciador-cover {
+  height: 360px;
+}
+
 .cover-line {
   height: 20px;
   background-color: #ff4500;
@@ -531,6 +535,9 @@ header {
     font-size: 13px;
     color: dimgrey;
     padding: 0.5rem;
+  }
+  .espaciador-cover {
+    height: 200px;
   }
 }
 @media (max-width: 769px) {

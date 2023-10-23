@@ -9,14 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
     ],
     githubLink: 'https://github.com/nosotros6/pilar-garcia-portafolio',
     githubImageSrc: 'https://user-images.githubusercontent.com/5679180/79618120-0daffb80-80be-11ea-819e-d2b0fa904d07.gif',
-    footerText: 'Diseño y Desarrollo Web: Pilar García Royo -  pilargarciaroyo@gmail.com - Agosto de 2022 / Actualización: Octubre de 2023 / Fotografías: Isabel Torres',
+    footerText: 'Diseño y Desarrollo Web: Pilar García Royo -  pilargarciaroyo@gmail.com - +56 9 9440 4516 / Fotografías: Isabel Torres',
   };
 
   function populateFooter(containerId, data) {
     const container = document.getElementById(containerId);
 
     const socialIconsList = document.createElement('ul');
-    socialIconsList.classList.add('nav', 'flex-row', 'icono-footer'); // Cambié 'flex-column' a 'flex-row'
+    socialIconsList.classList.add('nav', 'flex-row', 'icono-footer');
     data.socialIcons.forEach(socialIconData => {
       const socialIconItem = document.createElement('li');
       const socialIconLink = document.createElement('a');

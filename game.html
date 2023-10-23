@@ -21,31 +21,33 @@
 </head>
 
 <body>
-  <header class="game-line">
+  
+  <nav class="game-line">
     <a class="navbar-brand" href="index1.html">
       <!-- <img src="assets/img-game/logo-pili.png" alt="Logo de usuario" class="logo"> -->
       <span class="navbar-text text-white ms-4">pilar garcía</span>
     </a>
     <span class="navbar-text text-white-50">>> la yapa</span>
+  </nav>
+  <header class="text-center">
+    <div class="my-5">
+      <h3 class="container text-game text-center"><i class="fas fa-dice text-secondary"></i> Memory Games: <span
+          id="result">
+          0</span></h3>
+    </div>
+    <div class="m-5">
+      <a class="rainbow rainbow-1 m-5" href="./index1.html"><i class="fas fa-arrow-left"></i><i
+          class="fas fa-home mx-2"></i>Volver al home</a>
+      <a class="rainbow rainbow-1 m-5" onclick="resetBoard()"><i class="fas fa-undo me-2"></i>Volver a jugar</a>
+    </div>
   </header>
-
-  <div class="mt-5 mb-3">
-    <h3 class="container text-game text-center"><i class="fas fa-dice text-secondary"></i> Memory Games: <span id="result">
-        0</span></h3>
-  </div>
-  <div class="d-flex justify-content-center align-items-center m-3">
-    <a class="rainbow rainbow-1 m-5" href="./index1.html"><i class="fas fa-arrow-left"></i><i
-        class="fas fa-home mx-2"></i>Volver al home</a>
-    <a class="rainbow rainbow-1 m-5" onclick="resetBoard()"><i class="fas fa-undo me-2"></i>Volver a jugar</a>
-  </div>
-  <div class="row text-center">
+  <main class="row text-center">
     <div class="col">
       <div class="grid">
       </div>
     </div>
-  </div>
-
-  <footer class="game-line">
+  </main>
+  <footer class="game-line mt-5">
     <p class="text-footer-game text-center text-white pt-3 m-0">pilargarciaroyo@gmail.com - +56 9 9440 4516</p>>
   </footer>
 
@@ -53,6 +55,7 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
   <script src="./src/js/game.js"></script>
+
 </body>
 
 </html>

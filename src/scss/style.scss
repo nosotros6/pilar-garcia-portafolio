@@ -536,6 +536,23 @@ margin-top: 80px;
   animation-delay: 1s;
 }
 
+// GAME
+.game-line {
+  background-color: $color-secundario;
+  }
+
+  .text-game{
+    font-family: "Raleway", sans-serif;
+    color:$color-primario;
+    font-size: 40px;
+  }
+
+  .text-footer-game{
+    font-family: "Raleway", sans-serif;
+    color:$white;
+    font-size: 16px;
+  }
+
 /* Media query para pantallas pequeñas */
 
 @media (max-width: 500px) {
@@ -878,4 +895,48 @@ a {
 }
 .cta:active {
   transform: scale(0.96);
+}
+
+// game
+
+.grid img {
+  width: 100px;
+  height: 150px;
+  cursor: pointer;
+  margin: 12px;
+  border-radius: 8%
+}
+
+.title-logo {
+  max-width: 40px;
+}
+
+
+.a{color: #E7484F}
+.b{color: #F68B1D}
+.c{color: #FCED00}
+.d{color: #009E4F}
+.e{color: #00AAC3}
+.f{color:  #732982}
+
+.rainbow{
+  background-color: #e2e2e2;
+  border-radius: 4px;  
+  color: #ff4500;
+  cursor: pointer;
+  padding: 8px 16px;
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+.rainbow-1:hover{
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation:slidebg 5s linear infinite;
+}
+
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
 }

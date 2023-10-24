@@ -5,7 +5,7 @@ const menuItems = [
   { text: "proyectos", href: "proyects.html" },
   { text: "estudios", href: "studies.html" },
   { text: "trabajos", href: "jobs.html" },
-  { text: "la yapa", href: "game.html" },
+  { text: "juego", href: "game.html" },
 ];
 
 // Obtén el elemento <ul> del menú

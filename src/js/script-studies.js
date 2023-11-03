@@ -138,12 +138,12 @@ document.addEventListener("DOMContentLoaded", function () {
       alt: "Figma",
       tooltip: "Figma",
     },
-    {
-      enlace: "https://www.adobe.com/",
-      imagenSrc: "./assets/Img/icon-xd.png",
-      alt: "Adobe XD",
-      tooltip: "Adobe XD",
-    },
+    // {
+    //   enlace: "https://www.adobe.com/",
+    //   imagenSrc: "./assets/Img/icon-xd.png",
+    //   alt: "Adobe XD",
+    //   tooltip: "Adobe XD",
+    // },
     {
       enlace: "https://www.w3schools.com/git/default.asp",
       imagenSrc: "./assets/Img/icon-git.png",
@@ -168,12 +168,12 @@ document.addEventListener("DOMContentLoaded", function () {
       alt: "Prestashop",
       tooltip: "Prestashop",
     },
-    // {
-    //   enlace: "https://www.salesforce.com/es/",
-    //   imagenSrc: "./assets/Img/icon-salesforce.png",
-    //   alt: "Salesforce",
-    //   tooltip: "Salesforce",
-    // },
+    {
+      enlace: "https://www.salesforce.com/es/",
+      imagenSrc: "./assets/Img/icon-salesforce.png",
+      alt: "Salesforce",
+      tooltip: "Salesforce",
+    },
     {
       enlace: "https://www.optimalworkshop.com/",
       imagenSrc: "./assets/Img/icon-optimal.png",

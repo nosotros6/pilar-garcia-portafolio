@@ -703,6 +703,9 @@ a {
   .galeria-home {
     display: none;
   }
+  .main-movil {
+    display: none;
+  }
 }
 @media (max-width: 1025px) {
   #card-jobs {

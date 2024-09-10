@@ -728,4 +728,116 @@ a {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+.teatro {
+  filter: opacity(0.3);
+  transform: scale(1);
+  animation: scaleAnimation 4s ease-in-out infinite alternate; 
+  transition: filter 0.5s ease;
+  border-radius: 2%;
+  width: 200%;
+}
+
+@keyframes scaleAnimation {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.5);
+  }
+}
+
+.dirty-paws {
+  filter: opacity(0.3);
+  transform: scale(1);
+  animation: scaleAnimation 4s ease-in-out infinite alternate; 
+  transition: filter 0.5s ease;
+  border-radius: 2%;
+  width: 40%;
+}
+
+@keyframes scaleAnimation {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.5);
+  }
+}
+
+.caqui {
+  filter: opacity(0.3);
+  transform: scale(1);
+  animation: scaleAnimation 8s ease-in-out infinite alternate; 
+  transition: filter 0.5s ease;
+  border-radius: 2%;
+  width: 50%;
+}
+
+@keyframes scaleAnimation {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.5);
+  }
+}
+
+.portafolio-2021 {
+  filter: opacity(0.3);
+  transform: scale(1);
+  animation: scaleAnimation 8s ease-in-out infinite alternate; 
+  transition: filter 0.5s ease;
+  border-radius: 2%;
+  width: 60%;
+}
+
+@keyframes scaleAnimation {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.5);
+  }
+}
+
+.magda {
+  filter: opacity(0.3);
+  transform: scale(1);
+  animation: scaleAnimation 6s ease-in-out infinite alternate; 
+  transition: filter 0.5s ease;
+  border-radius: 2%;
+}
+
+@keyframes scaleAnimation {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.5);
+  }
+}
+
+/* Nuevo Footer */
+.nocetti {
+  filter: opacity(0.3);
+  transform: scale(1);
+  animation: scaleAnimation 4s ease-in-out infinite alternate; 
+  transition: filter 0.5s ease;
+  border-radius: 2%;
+  width: 30%;
+}
+
+@keyframes scaleAnimation {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(2);
+  }
+}
+
+
+.contenedor-footer:hover img {
+  animation-play-state: paused; 
+  filter: opacity(1); 
+}

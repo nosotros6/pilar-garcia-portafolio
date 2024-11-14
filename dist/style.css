@@ -605,6 +605,11 @@ a {
   font-size: 16px;
 }
 
+.card-hover:hover {
+  transform: scale(1.5); /* Ajusta el valor para el nivel de agrandamiento */
+  transition: transform 0.3s ease; /* Suaviza la transición */
+}
+
 /* Media query para pantallas pequeñas */
 @media (max-width: 500px) {
   .nav-link {

@@ -731,7 +731,7 @@ a {
   }
 }
 
-.teatro {
+/* .teatro {
   filter: opacity(0.3);
   transform: scale(1);
   animation: scaleAnimation 4s ease-in-out infinite alternate; 
@@ -818,29 +818,29 @@ a {
   to {
       transform: scale(1.5);
   }
-}
+} */
 
 /* Nuevo Footer */
-.nocetti {
+/* .nocetti {
   filter: opacity(0.3);
   transform: scale(1);
   animation: scaleAnimation 4s ease-in-out infinite alternate; 
   transition: filter 0.5s ease;
   border-radius: 2%;
   width: 30%;
-}
+} */
 
-@keyframes scaleAnimation {
+/* @keyframes scaleAnimation {
   from {
       transform: scale(1);
   }
   to {
       transform: scale(2);
   }
-}
+} */
 
-
+/* 
 .contenedor-footer:hover img {
   animation-play-state: paused; 
   filter: opacity(1); 
-}
+} */
